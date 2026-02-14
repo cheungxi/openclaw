@@ -28,6 +28,16 @@ Sandboxing details: [Sandboxing](/gateway/sandboxing)
 - Docker Desktop (or Docker Engine) + Docker Compose v2
 - Enough disk for images + logs
 
+## Architecture Support
+
+OpenClaw Docker images are built for multiple architectures:
+
+- **linux/amd64** (x86_64) - Intel/AMD processors
+- **linux/arm64** (aarch64) - ARM 64-bit processors (Apple Silicon, AWS Graviton, Raspberry Pi 4+)
+- **linux/loong64** (LoongArch) - Chinese domestic processors
+
+Docker automatically selects the correct image for your CPU architecture. For LoongArch-specific details, see [LoongArch Support](/platforms/loongarch).
+
 ## Containerized Gateway (Docker Compose)
 
 ### Quick start (recommended)
