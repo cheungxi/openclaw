@@ -22,6 +22,7 @@ Native companion apps for Windows are also planned; the Gateway is recommended v
 - Android: [Android](/platforms/android)
 - Windows: [Windows](/platforms/windows)
 - Linux: [Linux](/platforms/linux)
+- LoongArch: [LoongArch](/platforms/loongarch)
 
 ## VPS & hosting
 

@@ -13,6 +13,8 @@ Bun is not recommended for the Gateway (WhatsApp/Telegram bugs).
 
 Native Linux companion apps are planned. Contributions are welcome if you want to help build one.
 
+**Architecture Support**: Linux builds support x86_64 (amd64), ARM64 (aarch64), and LoongArch (loong64). For LoongArch-specific installation and configuration, see [LoongArch](/platforms/loongarch).
+
 ## Beginner quick path (VPS)
 
 1. Install Node 22+
